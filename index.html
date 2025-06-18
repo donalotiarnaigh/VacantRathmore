@@ -237,9 +237,9 @@
 
             function style_RathmoreVacantBuildings_1_0(feature) {
                 // Choose icon based on property condition
-                var iconUrl = 'markers/RathmoreVacantBuildings_1.svg';
+                var iconUrl = 'markers/vacant_icon_filled.png';
                 if (feature.properties['Liveable Condition?'] === 'false') {
-                    iconUrl = 'markers/RathmoreVacantBuildings_derelict.svg';
+                    iconUrl = 'markers/derelict_icon_filled.png';
                 }
                 
                 return {
